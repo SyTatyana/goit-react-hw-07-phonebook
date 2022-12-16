@@ -12,9 +12,9 @@ export default function AddContact() {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
-  const [handleAddContact, { isLoading, isError: isErr, error: err }] =
+  const [handleAddContact, { isError: isErr, error: err }] =
     useGetCreateContactMutation();
-  const { data, isSuccess } = useGetFetchPhonebookQuery();
+  const { data } = useGetFetchPhonebookQuery();
 
   useEffect(() => {
     if (isErr) {

@@ -4,7 +4,7 @@ import { useGetDeleteContactMutation } from '../../Redux/phonebook/phonebook-sli
 import { toast } from 'react-toastify';
 
 export default function ContactItem({ contact }) {
-  const [delet, { isLoading, isError, error }] = useGetDeleteContactMutation();
+  const [delet, { isError, error }] = useGetDeleteContactMutation();
 
   if (isError) {
     toast.error(`error ${error.status} (${error.data})`);
