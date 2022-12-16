@@ -63,7 +63,7 @@ export default function AddContact() {
       />
 
       <button type="submit" className={style.btn}>
-        Add contact
+        Add Contact
       </button>
     </form>
   );

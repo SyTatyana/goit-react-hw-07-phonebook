@@ -14,7 +14,7 @@ export default function ContactItem({ contact }) {
       <p>{contact.name}:</p>
       <p>{contact.phone}</p>
       <button className={style.button} onClick={() => delet(contact.id)}>
-        delete
+        Delete
       </button>
     </li>
   );
