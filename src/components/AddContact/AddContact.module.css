@@ -1,0 +1,19 @@
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    border: #473144;
+}
+
+.btn {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #AF1B3F;
+}
+
+.btn:hover {
+    color: black;;
+    background-color: #EFC69B;
+}

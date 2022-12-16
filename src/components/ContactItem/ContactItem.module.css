@@ -1,0 +1,15 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.button {
+    background-color: #AF1B3F;
+    color: black;
+}
+
+.button:hover {
+    color: black;
+    background-color: #EFC69B;
+}
