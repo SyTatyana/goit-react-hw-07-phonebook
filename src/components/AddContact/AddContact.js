@@ -55,7 +55,7 @@ export default function AddContact() {
       />
       <AddContactInput
         type="tel"
-        name="Phone Number"
+        name="Number"
         value={number}
         hahdleChange={hahdleChange}
         title="Номер телефона должен состоять из цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
